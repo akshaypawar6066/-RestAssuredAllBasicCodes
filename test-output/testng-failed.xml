@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restAssuredDemo.LibraryAPIDynamicJson">
+      <class name="restAssuredDemo.RestAssuredExcelDrivenTest">
         <methods>
           <include name="addBook"/>
         </methods>
-      </class> <!-- restAssuredDemo.LibraryAPIDynamicJson -->
+      </class> <!-- restAssuredDemo.RestAssuredExcelDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

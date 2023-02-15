@@ -55,6 +55,7 @@ public class EcommerceAPITest {
 		JsonPath js = ReusableMethods.rawToJson(addProductresponse);
 		String productId = js.getString("productId");
 		System.out.println("ProductId is:" + productId);
+		
 
 		// ****Create Order****
 		// relaxedHTTPSValidation()-If our API need any SSL certification then this
